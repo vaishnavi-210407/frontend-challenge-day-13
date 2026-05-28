@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search with Debounce</title>
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&display=swap"
+    rel="stylesheet" />
+</head>
+
+    <div class="container">
+
+    <h1>🔍 Search with Debounce</h1>
+
+    <div class="search-box">
+      <input 
+        type="text"
+        id="searchInput"
+        placeholder="Search anything..."
+      >
+    </div>
+
+    <div class="loading" id="loading">
+      Searching...
+    </div>
+
+    <div class="results" id="results"></div>
+
+    <div class="info">
+      Debounce Delay: 500ms
+    </div>
+
+  </div>
+
+  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>
